@@ -32,7 +32,7 @@ export default {
         color:#616467;
         /* border: none; */
         border: 2px solid #616467;
-        width: 20%;
+       /*width: 20%;*/
         padding: 15px;
         font-size: 15px;
         margin-bottom: 50px;
@@ -40,5 +40,13 @@ export default {
     .sug__btn:hover{
         background-color: #616467;
         color: #fff;
+    }
+    @media (max-width:991px) {
+        .sug__btn {
+            width: 35%;
+        }
+        .suggestions>h1 {
+        font-size: 2em;
+        }
     }
 </style>

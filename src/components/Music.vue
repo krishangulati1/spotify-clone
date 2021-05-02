@@ -83,4 +83,35 @@ export default {
 {
   left: 120px;
 }
+@media (max-width:991px) {
+  .music {
+    height: 30%;
+    width: 40%;
+  }
+  .abs {
+  position: absolute;
+  top: 8%;
+  left: 12%;
+  visibility: hidden;
+  }
+  .overlay
+  {
+      position: absolute;
+
+      width: 100%;
+      min-width: 40%;
+      background-color: rgba(0,0,0,0.9);
+      height: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+  }
+  .music__heading
+  {
+    font-size: 16px;
+  }
+  .link
+  {
+    text-align: center;
+  }
+}
 </style>

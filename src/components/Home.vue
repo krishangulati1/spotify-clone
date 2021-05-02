@@ -58,4 +58,15 @@ export default {
   text-align: center;
   font-size: 10px;
 }
+@media (max-width:991px) {
+  .home__background {
+    font-size: .85em;
+    justify-content: center;
+  }
+  .btn {
+    width: 25%;
+    letter-spacing: .75px;
+    font-size: 13px;
+  }
+}
 </style>

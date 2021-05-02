@@ -31,4 +31,14 @@ export default {
         flex-wrap: wrap;
         margin-bottom: 80px;
     }
+    @media (max-width:991px) {
+        .yourmusic {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 80px;
+        }
+    }
 </style>
